@@ -32,10 +32,10 @@ const Image = styled(ResponsiveImage)`
 `;
 
 const Tags = styled.ul`
-  gap: 8px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding: 8px 0;
 `;
 
 const Tag = styled.li`
@@ -51,6 +51,8 @@ const Tag = styled.li`
   &:first-of-type {
     margin-left: 0;
   }
+
+  padding: 8px;
 `;
 
 export default PhotoGridItem;
