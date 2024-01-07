@@ -5,7 +5,7 @@ import styled from "styled-components/macro";
 const Hero = () => {
   return (
     <Wrapper>
-      <HeroImage baseSrc="/images/hero-img.jpg" alt="" />
+      <HeroImage baseSrc="/images/hero-img.jpg" img={{ alt: "" }} />
       <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
   );
